@@ -1,0 +1,38 @@
+body {
+background-color: #ebfafa;
+font-family: arial, helvetica, sans-serif;
+color: #145252;
+max-width: 900px;
+margin:0 auto;
+}
+
+.jumbotron, footer {
+background-color: #145252;
+color: #fef9ff;
+
+}
+
+nav a{
+  background-color: #145252;
+  color: #fef9ff;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  width: 100px;
+}
+nav a:visited {
+  color: #ebfafa;
+}
+nav a:hover {
+  background-color: #ebfafa;
+  color: #5b7d87
+}
+nav a:active {
+  font-weight: bold;
+}
+
+
+/*add footer, header, jumbotron, background*/
