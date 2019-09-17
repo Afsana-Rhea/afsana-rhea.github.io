@@ -7,8 +7,9 @@ margin:0 auto;
 }
 
 .jumbotron, footer {
-background-color: #145252;
+background-image: url("galaxy.png");
 color: #fef9ff;
+font-family: 'Saira Stencil One', cursive;
 
 }
 
@@ -22,16 +23,19 @@ nav a{
   display: block;
   margin: 20px;
   width: 100px;
+  text-decoration: underline;
 }
 nav a:visited {
-  color: #ebfafa;
+  color: #FFD700;
 }
 nav a:hover {
+  font-weight: bold;
   background-color: #ebfafa;
   color: #5b7d87
+
 }
 nav a:active {
-  font-weight: bold;
+color: #FF69B4;
 }
 
 
