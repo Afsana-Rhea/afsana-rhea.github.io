@@ -7,13 +7,13 @@ Most recent version
 body {
 background-color: #fef9ff;
 font-family: arial, helvetica, sans-serif;
-color: #0d1f2d;
+color: #b366ff;
 max-width: 900px;
 margin:0 auto;
 }
-header, footer {
-background-color: indianred;
-color: #fef9ff;
+jumbotron, header, footer {
+background-image: url("https://image.shutterstock.com/image-illustration/tulips-roses-still-life-style-600w-1364453501.jpg");
+color: #ffe6e6;
 height: 100px;
 text-align: center;
 padding: 30px 10px 20px 10px;
@@ -22,9 +22,9 @@ h1{
   font-size: 2.5em;
 }
 nav{
-border-top: 3px dashed #546a7b;
+/* border-top: 3px dashed #546a7b;
 border-bottom: 3px dashed #546a7b;
-margin-top: 4px;
+margin-top: 4px; */
 }
 .clear-float {
   clear:both;
@@ -34,17 +34,17 @@ article img{
 }
 .right-content  {
 float:left;
+padding-left: 100px;
 }
 article{
   margin-bottom: 16px;
 }
 
 nav a{
-  background-color: #5b7d87;
+  background-color:  #ffe6e6;
   color: #fef9ff;
   padding: 8px;
-  border: thin solid #0d1f2d;
-  text-decoration: none;
+text-decoration: none;
   text-align: center;
   display: block;
   margin: 20px;
