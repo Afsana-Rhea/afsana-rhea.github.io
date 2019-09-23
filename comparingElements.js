@@ -24,7 +24,7 @@ for (var arrayPosition = 0;
 
         if (currentElement !== nextElement)
 		{
-            
+
             console.log(currentElement + " is " + typeof(currentElement));
             console.log(nextElement  + " is " +  typeof(nextElement));
         }
