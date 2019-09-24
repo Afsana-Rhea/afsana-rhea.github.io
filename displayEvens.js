@@ -1,8 +1,9 @@
 function validateItems() {
-  
+
     var num1 = Number(document.forms["numberFun"]["num1"].value);
     var num2 = Number(document.forms["numberFun"]["num2"].value);
     var num3 = Number(document.forms["numberFun"]["num3"].value);
+
     if (num1 == "" || isNaN(num1)) {
         alert("Num1 must be filled in with a number.");
         document.forms["numberFun"]["num1"]
@@ -33,9 +34,9 @@ if ( i % 2 === 0 ) {
 }
 
    document.getElementById("results").style.display = "block";
-   document.getElementById("displaynum1").innerText = num1;
-   document.getElementById("displaynum2").innerText = num2;
-   document.getElementById("displaynum3").innerText = num3;
+   document.getElementById("displaynum1").innerHTML = num1;
+   document.getElementById("displaynum2").innerHTML = num2;
+   document.getElementById("displaynum3").innerHTML = num3;
 
 
    return false;
