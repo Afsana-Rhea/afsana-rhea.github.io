@@ -38,5 +38,14 @@ nav a:active {
 color: #FF69B4;
 }
 
+#carouselGifSlider {
+  padding: 50px 20px;
+}
+
+.d-block {
+width: 50%;
+
+}
+
 
 /*add footer, header, jumbotron, background*/
