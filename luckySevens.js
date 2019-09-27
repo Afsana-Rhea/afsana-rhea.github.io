@@ -4,7 +4,7 @@ var maxMoney;
 var rollsAtMax;
 var gameMoney;
 function luckySevens() {
-  var bet = Number(document.getElementById("startingBet").value);
+  var bet = Number(document.getElementById("startBet").value);
   rolls = 0;
   gameMoney = bet;
   maxMoney= bet;
@@ -18,7 +18,7 @@ function luckySevens() {
       if(rollDice() == 7){
         gameMoney += 4;
         if (gameMoney > maxMoney){
-          maxMoney += (gameMoney-maxMoney);
+          maxMoney += gameMoney;
           rollsAtMax = rolls;
         }
         console.log("You Win");
@@ -29,8 +29,9 @@ function luckySevens() {
       }
   }
 }
+console.log(bet)
 document.getElementById("results").style.display= "block";
-document.getElementById("startingBet").innerText= gameMoney;
+document.getElementById("startingBet").innerText= bet;
 document.getElementById("maxMoney").innerText = maxMoney;
 document.getElementById("rollsAtMax").innerText = rollsAtMax;
 document.getElementById("rollsNum").innerText = rolls;
